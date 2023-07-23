@@ -4,8 +4,6 @@ const path = require('path');
 const { hostname } = require('os');
 
 const port = 8080;
-const about = 'about';
-const contact = 'contact-me';
 
 const server = http.createServer((req, res) => {
     let filepath;
